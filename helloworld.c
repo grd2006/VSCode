@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	printf("Write a program to print the smaller between two numbers \n");
+	printf("Write a program \n");
 	int a, b;
 	printf("Enter first number :");
 	scanf("%d", &a);
