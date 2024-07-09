@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+	int n1, n2, result;
+	char operator;
+	printf("Enter first number ");
+	scanf("%d", &n1);
+	printf("\n Enter an operator ");
+	scanf(" %c", &operator);
+	printf("\n Enter second number ");
+	scanf("%d", &n2);
+	if (operator=='+') {
+		result==n1+n2;
+		printf("\n %d + %d = %d", n1, n2, result);
+	}
+	else if (operator=='-') {
+		result=n1-n2;
+		printf("\n %d - %d = %d", n1, n2, result);
+	}
+	else if (operator=='*') {
+		result=n1*n2;
+		printf("\n %d * %d = %d", n1, n2, result);
+	}
+	else if (operator=='/') {
+		result=n1/n2;
+		printf("\n %d / %d = %d", n1, n2, result);
+	}
+	else {
+		printf("Invalid operator entered");
+	}
+	return 0;
+}

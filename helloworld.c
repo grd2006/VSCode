@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	printf("Write a program \n");
-	int a, b;
-	printf("Enter first number :");
-	scanf("%d", &a);
-	printf("Enter second number :");
-	scanf("%d", &b);
-	if (a<b) {
-		printf("%d", b);
-	}
-	else {
-		printf("%d", a);
-	}
+	int n1, n2;
+	printf("write a program to check if a number is prime or not");
+	printf("\n Enter starting of range ");
+	scanf("%d", &n1);
+	printf("\n Enter ending of range ");
+	scanf("%d", &n2);
+	do
+	)
 	return 0;
 }
